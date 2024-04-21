@@ -1,0 +1,32 @@
+{
+  "name": "authenticated-static-site",
+  "version": "0.1.0",
+  "bin": {
+    "authenticated-static-site": "bin/authenticated-static-site.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "prettier": "npx prettier -w bin lib"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.41.0",
+    "constructs": "^10.1.94",
+    "source-map-support": "^0.5.19"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.7.15",
+    "aws-cdk": "^2.41.0",
+    "jest": "28.1.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7"
+  }
+}
